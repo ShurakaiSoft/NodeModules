@@ -1,0 +1,17 @@
+{
+  "name": "cache",
+  "version": "0.1.0",
+  "description": "Simple TTL cache.",
+  "main": "hello-world-server.js",
+  "repository": "",
+  "keywords": [
+    "cache",
+    "TTL",
+    "time",
+    "to",
+    "live"
+  ],
+  "author": "Stephen Parker",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
