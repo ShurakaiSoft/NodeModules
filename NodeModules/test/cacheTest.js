@@ -3,6 +3,7 @@
  */
 
 var should = require('should');
+var cache = require('../lib/cache');
 
 var asyncDelay = 100;
 var shortTtl = 500;
@@ -17,7 +18,7 @@ describe("Cache Module:", function () {
 			d: 'delta',
 			e: 'echo'
 	};
-	var shortTtlCache = require('../lib/cache').init({
+	var shortTtlCache = cache.init({
 		addFunc: function (key, callback) {
 			setTimeout(function () {
 				callback(null, values[key]);
@@ -25,7 +26,7 @@ describe("Cache Module:", function () {
 		},
 		ttl: shortTtl
 	});
-	var longTtlCache = require('../lib/cache').init({
+	var longTtlCache = cache.init({
 		addFunc: function (key, callback) {
 			setTimeout(function () {
 				callback(null, values[key]);

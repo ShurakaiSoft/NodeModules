@@ -2,7 +2,7 @@
   "name": "cache",
   "version": "0.1.0",
   "description": "Simple TTL cache.",
-  "main": "hello-world-server.js",
+  "main": "lib/cache.js",
   "repository": "",
   "keywords": [
     "cache",
@@ -11,6 +11,13 @@
     "to",
     "live"
   ],
+  "scripts": {
+    "test": "mocha -R spec test/*.js"
+  },
+  "devDependencies": {
+	  "mocha": "x",
+	  "should": "latest"
+  },
   "author": "Stephen Parker",
   "license": "BSD",
   "readmeFilename": "README.md"
