@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Simple TTL cache.",
   "main": "lib/cache.js",
-  "repository": "",
+  "repository": "https://github.com/ShurakaiSoft/cache.git",
   "keywords": [
     "cache",
     "TTL",
